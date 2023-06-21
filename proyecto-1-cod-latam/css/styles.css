@@ -1,0 +1,203 @@
+/* En este archivo escriban su CSS */
+
+/* Fonts */
+/* Importar aquí la font */
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+   
+/* Aquí les dejamos como ayuda este "reset" en el cual ajustamos algunas propiedades
+*  cuyos valores asigna por defecto el navegador.
+*/
+
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    list-style: none;
+    /* Para que el scrolleo en la one page sea suave */
+    scroll-behavior: smooth;
+
+}
+
+
+
+body{
+    font-family: 'Lato', sans-serif;
+    line-height: 1.2;
+    background-color: #fbfbfb;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    
+    
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    height: 90px;
+    width: 100%;
+    background-attachment: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 3px 10px -5px;
+
+}
+
+ul#menu {
+    display: flex;
+    font-size: 20px;
+}
+
+.menu1{
+    display: inline-block;
+    padding: 16px;
+    
+}
+
+.menu2{
+    display: inline-block;
+    padding: 16px;
+}
+
+.foto1 {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin: 0;
+    padding: 20px;
+    margin-top: 20px;
+     
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    
+}
+h1 {
+    
+    font-size: 36px;
+    text-align: center;
+   
+}
+.contenedor1{
+    background-color: #af599e;
+    display:flex;
+    font-size: 20px;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    align-items: center;
+    border-radius: 50px;
+    width: 350px;
+    height: 40px;
+    gap: 10px;
+    margin-top: 20px;
+    
+    
+
+}
+
+
+section2 {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    margin-top: 40px;
+
+
+}
+    
+
+h2{
+    text-align: center;
+    font-size: 28px;
+   
+}
+
+.articulo{
+    background-color:rgba(175,89,158,0.3) ;
+    text-align: center;
+    margin-top: 60px;
+}
+
+
+p{ font-size: 18px;
+    margin-top: 40px;
+    
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+
+.contenedor2{
+    display: flex;
+    margin-top: 20px;
+    border: 10px;
+      
+}
+ 
+li{
+    margin-top: 40px;
+    display: inline-block;
+    margin-bottom: 10px;
+    flex-direction: row;
+    
+}
+
+.icono{
+   margin-left: 40px;
+    
+ 
+    
+}
+
+footer{
+   color: #fbfbfb;
+   background-color: #af599e;
+   text-align: center;
+   height: 90px;
+}
+/* Para quitar los puntos a los items de listas */
+ul {
+    list-style: none;
+}
+
+/* Para que los enlaces hereden el color de texto y no tengan subrayado */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
+*  el margin: auto; para tenerlo centrado fácilmente ;)
+*/
+
+/* Recomendaciones! 
+*  - Comenzar desde lo más general y luego ir hacia lo mas específico, asignando primero
+*    "estilos generales". Una buena idea sería comenzar por el <body> ;)
+*
+*  - Recuerden que queremos evitar "repetir código", en CSS usando la cualidad de la herencia
+*    podemos setear ciertas propiedades en un elemento padre y dejar que sean heredadas (por ejemplo: font-size)
+*
+*  - Nadie sabe todas las propiedades CSS de memoria, si no saben como hacer algo no lo recuerdan, la respuesta
+*    pueden encontrarla buscando en la web algo como "CSS como hacer ... " o "propiedad css para hacer ..."
+*
+*  - Usen mucho las herramientas para desarrolladores del navegador para ir
+*    probando el CSS que escriben, resolver dudas y problemas.
+*
+*  - Paciencia, resiliencia y creatividad! No se desanimen, las primeras experiencias maquetando con HTML y CSS
+*    pueden ser frustrantes, pero estas habilidades se van desarrollando con la experiencia, es como aprender
+*    un trabajo manual, hacer una artesanía, tocar un instrumento musical... la práctica es todo!
+*/
