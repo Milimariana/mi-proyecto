@@ -53,21 +53,16 @@ ul#menu {
     font-size: 20px;
 }
 
-.menu1{
-    display: inline-block;
-    padding: 16px;
+.menu-lista{
     
-}
-
-.menu2{
-    display: inline-block;
     padding: 16px;
 }
+    
+
 
 .foto1 {
     border-radius: 50%;
     width: 300px;
-    height: 300px;
     margin: 0;
     padding: 20px;
     margin-top: 20px;
@@ -128,6 +123,7 @@ h2{
     background-color:rgba(175,89,158,0.3) ;
     text-align: center;
     margin-top: 60px;
+    padding: 10px;
 }
 
 
@@ -150,12 +146,10 @@ main {
       
 }
  
-li{
-    margin-top: 40px;
-    display: inline-block;
-    margin-bottom: 10px;
-    flex-direction: row;
-    
+.redes{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 .icono{
